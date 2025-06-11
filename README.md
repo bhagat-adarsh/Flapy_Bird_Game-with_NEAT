@@ -13,3 +13,7 @@ This is an AI-based Flappy Bird clone where birds learn to play using the NEAT (
 ```bash
 pip install pygame neat-python
 python {filename}.py
+<<<<<<< HEAD
+=======
+
+>>>>>>> 995bad3 (Added all project files)

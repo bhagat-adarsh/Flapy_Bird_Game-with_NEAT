@@ -1,0 +1,39 @@
+INPUT<------------ Bird y ,Top pipe , bottom pipe
+OUTPUT<----------- JUMP ? or do not JUMP(movements four output nerves)
+Acivation<------------ tan H
+Population Size<------------ 100(random neural networks cotroling the birds)
+FITNESS FUNCTION<------------ Score of the game
+MAx GENERATIONS<------------ 1000
+
+```
+Genome: In NEAT, a genome is a data structure that encodes a neural network (its structure and weights).
+Each genome represents a possible solution (a neural network) that can play the game
+``
+
+```
+NEAT stands for NeuroEvolution of Augmenting Topologies.
+It is an algorithm that evolves both the structure and weights of neural networks using genetic algorithms.
+
+How NEAT works:
+Starts with simple neural networks (few connections).
+Uses genetic operations (mutation, crossover) to evolve networks over generations.
+Networks that perform better (higher fitness, e.g., higher Flappy Bird score) are more likely to be selected for the next generation.
+Over time, networks become more complex and better at the task.
+```
+```Each genome is a neural network controlling a bird.
+The NEAT algorithm runs many birds at once, each with its own neural network.
+Birds that survive longer and score higher are considered "fitter".
+NEAT evolves the population of genomes to improve performance over generations.
+```
+
+
+Summary Table:
+
+Term	Meaning
+Genome	Encodes a neural network (structure + weights) in NEAT
+Neural Network	A system of connected nodes that can learn to perform tasks
+NEAT	An algorithm that evolves neural networks using genetic principles
+```
+Population	A group of genomes (neural networks) that compete and evolve
+Fitness Function	A measure of how well a genome performs (e.g., Flappy Bird score)
+Generations	Iterations of evolution where genomes are selected, mutated, and crossed over
